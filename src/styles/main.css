@@ -18,6 +18,7 @@ body {
 }
 
 .wrapper {
+    position: relative;
     display: flex;
 }
 
@@ -51,4 +52,15 @@ body {
     max-width: 1232px;
     height: 857px;
     overflow: hidden;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 26px 43px 39px;
+    width: 1232px;
+    background-color: transparent;
 }
